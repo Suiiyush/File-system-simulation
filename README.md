@@ -41,9 +41,9 @@ Features of this file system:
   4. The file sysetm allows for the creation of empty files (files which take up 0 data blocks).
 
 To run the file system:
-1. Open terminal in the folder in which the code files are present.
-2. type gcc fileSystem.c
-3. then run the executable file name a.out.
+  1. Open terminal in the folder in which the code files are present.
+  2. type gcc fileSystem.c
+  3. then run the executable file name a.out.
 
 The first thing the program asks for is if the user wants to foramt the disk or user it as it is. Choosing to format erases all the files previously made and the program goes on to rewerite the superblock and directory freshly.
 Otherwise the data remains intact and the user can access the files he/she made in previous sessions.
